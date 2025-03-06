@@ -1,0 +1,31 @@
+/* the styling for the header of the blog page */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* makes the buttons appear at the top corners */
+    width: 80%;
+    margin-top: 15px;   
+}
+
+/* makes it so both buttons are the same size */
+#styleChange{
+    width:40px
+}
+#backbutton{
+    width:40px
+}
+
+/* the styling of the posts */
+li{
+    background-color: rgb(243, 238, 233);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 2px rgb(175, 162, 149) solid;
+    border-bottom: 2px rgb(175, 162, 149) solid;
+    border-radius: 20px;
+    padding: 1px 20px;
+    margin: 10px
+}
+ul{
+    list-style-type: none;
+}

@@ -1,0 +1,45 @@
+/* The page vertical format and color of the body of all pages */
+body{
+    color: black;
+    background-color: rgb(230, 222, 213);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* darkmode style for the body, posts and buttons */
+body.dark-mode{
+    color:rgb(218, 238, 255);
+    background-color:rgb(5, 5, 44)
+}
+li.dark-mode{
+    color:rgb(218, 238, 255);
+    background-color:rgb(26, 26, 73);
+    border-color: rgb(43, 43, 235);
+}
+button.dark-mode{
+    color:rgb(218, 238, 255);
+    background-color:rgb(26, 26, 73);
+    border-color: rgb(43, 43, 235);
+}
+
+/* black line that borders the page */
+html{
+    border: 5px black solid;
+    margin: 6px;
+}
+
+/* styling for the buttons within all pages */
+button {
+    padding: 10px;
+    margin-top: 10px;
+    width: fit-content;
+    align-self: flex-end; /* Keep the button aligned to the left */
+    background-color: rgb(243, 238, 233);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 2px rgb(175, 162, 149) solid;
+    border-bottom: 2px rgb(175, 162, 149) solid;
+}

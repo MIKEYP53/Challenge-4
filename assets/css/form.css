@@ -1,0 +1,37 @@
+/* orientation of the image*/
+img {
+    max-width: 30%;
+    margin-top: 20px;
+}
+
+/* Formating the sign in form, the page title, and its container */
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+h1 {
+    padding: 20px;
+    flex: 0 1 40%;
+    text-decoration: underline 14px;
+    font-size: 2rem;
+}
+#blogForm {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* the formating for the input text areas along with some color and bordering */
+input, textarea {
+    margin: 10px 0; /* Add space between form elements */
+    padding: 10px;
+    width: 100%; /* Make form inputs fill the available width */
+    background-color: rgb(243, 238, 233);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 2px rgb(175, 162, 149) solid;
+    border-bottom: 2px rgb(175, 162, 149) solid;
+}
